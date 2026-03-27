@@ -1,9 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
-// AgriTech Pro: Supabase Connection
-// Replace with your project details from Step 3 of the Migration Plan
-const supabaseUrl = 'YOUR_SUPABASE_URL';
-const supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+// AgriTech Pro: Supabase Connection (Labor App)
+const supabaseUrl = 'https://qxrfucvswafxnypsrupe.supabase.co';
+const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF4cmZ1Y3Zzd2FmeG55cHNydXBlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ2MzQzNTEsImV4cCI6MjA5MDIxMDM1MX0.3SmX432P1tnYb0J8UuUvX7gxQ6jqsO4JBBqXFVH0esU';
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
